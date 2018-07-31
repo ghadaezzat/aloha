@@ -1,0 +1,131 @@
+
+
+html{
+  
+    body{
+        font-family: 'Source Sans Pro', sans-serif !important;
+        font-size: 14px;
+        background: #fff;
+        width: 100%;
+        height: 100%;
+        padding-bottom: 70px;
+        color: #000;
+       
+    }
+
+}
+.alex {
+    font-family: 'Alex Brush', cursive;
+    font-size: 3em;
+    font-weight: bold;
+    
+}
+.logo {
+    width:100%;
+}
+.hpmessage {
+    font-size: 18px;
+    color: white;
+}
+.btn-success,.btn-success:hover {
+    background: #f4e000;
+    color: #000;
+    border: 1px solid #f4e000;
+    font-weight: bold;
+}
+.school{
+
+    font-family: 'Schoolbell', cursive !important;
+    font-size: 18px;
+}
+.youtubestudio {
+    border-bottom: none;
+    padding-bottom: 20px;
+    h2,i{
+        color:black;
+    }
+ 
+
+
+}
+.welcome,.facilities,.pricing,.footer{
+    background: darkblue;
+    color:white;
+}   
+.services{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.services, .youtubestudio {
+    //background: #00a7e1 !important;
+    border-top: 3px dashed white;
+    div.col-lg-3,div.col-lg-4{
+        float: left;
+    }
+}
+
+.facilities{
+    div.col-lg-3{
+        float: left;
+    }
+    .icons{
+        min-height:130px;
+    }
+    .onefacility i {
+        font-size: 80px;
+        &:hover{
+            -webkit-transform: scale(1.25) 0.3s ease;
+            -moz-transform: scale(1.25) 0.3s ease;
+            -o-transform: scale(1.25) 0.3s ease;
+            transform: scale(1.25) 0.3s ease;
+        }
+    }
+}
+.pricing{
+    div.col-lg-3,div.col-lg-6{
+        float: left;
+    }
+    .pricingborder{
+        border: 2px dashed white;
+        border-radius: 10px;
+        min-height: 300px;
+        padding-top: 25px;
+        margin-bottom: 15px;
+        .pricingplantitle{
+            font-size: 21px !important;
+        }
+        .pricep {
+            bottom: 0;
+            position: absolute;
+            border-top: 2px dashed white;
+            width: 90%;
+            font-size: 25px;
+            padding: 15px 0;
+
+
+            span {
+                font-size: 14px;
+            }
+        }
+
+
+        .pricepbutton {
+            display: none;
+        }
+    }
+    .meeting{
+        div.col-lg-4,div.col-lg-8{
+            float:left;
+        }
+    }
+   
+}
+.footer{
+    .fa-circle{
+        color:white;
+    }
+    .fa-facebook{
+        color:blue;
+        
+    }
+}
